@@ -1,3 +1,4 @@
+//  THIS IS THE PROGRAM FOR FIRST COME FIRST SERVE(FCFS) WHEN THE ARIVAL TIME IS 0. 
 #include<stdio.h>
 //Function to Calculate the Waiting Time 
 void find_wt(int process[],int n,int bt[],int wt[])
@@ -14,7 +15,7 @@ void find_wt(int process[],int n,int bt[],int wt[])
 void find_tat(int process[],int n,int bt[],int wt[],int tat[])
 {
     //Logic for Turn Around Time
-    for (int i=0;i<n;i++)
+    for (int i=0; i<n; i++)
     {
         tat[i]=wt[i]+bt[i];
     }
@@ -24,7 +25,9 @@ void find_avg_time(int process[], int n, int bt[])
 {
     int tat[n], wt[n], total_wt=0, total_tat=0;
     //Calling of Waiting Time Function.
+    
     find_wt(process, n, bt, wt);
+    
     //Display of Turn Around Time Function.
     find_tat(process, n, bt, wt, tat);
     //Display of all the data in the Table form.
