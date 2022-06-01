@@ -39,9 +39,9 @@ OUTPUT :
 Enter the no. of process: 4
 Enter the burst time of process: 7 13 5 9
 Process  Burst Time      Waiting Time    Turn Around Time
-1       7                       0               7
-2       13                      7               20
-3       5                       20              25
-4       9                       25              34
+1          7                    0               7
+2         13                    7               20
+3          5                    20              25
+4          9                    25              34
 Average waiting time = 13.000000
 Average Turn around time = 21.500000
