@@ -29,6 +29,7 @@ void main()
         atat=atat+tat[i];
         printf("%d\t%d\t\t\t%d\t\t%d\n",i+1,bt[i],wt[i],tat[i]); 
     }
+    //Printing the Average Turn Around time and Waiting Time
     printf("Average waiting time = %f\n",awt/n);
     printf("Average Turn around time = %f",atat/n);
 }
