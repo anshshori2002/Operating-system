@@ -1,57 +1,46 @@
-//  THIS IS THE PROGRAM FOR FIRST COME FIRST SERVE(FCFS) WHEN THE ARIVAL TIME IS 0. 
 #include<stdio.h>
-//Function to Calculate the Waiting Time 
-void find_wt(int process[],int n,int bt[],int wt[])
-{
-    // Waiting time for the first process is 0
-    wt[0]=0;
-    //Logic for Calculating the Waiting Time
-    for (int i=1;i<n;i++)
-    {
-        wt[i]=bt[i-1]+wt[i-1];
-    }
-}
-//Functon to calculate the Turn Around Time
-void find_tat(int process[],int n,int bt[],int wt[],int tat[])
-{
-    //Logic for Turn Around Time
-    for (int i=0; i<n; i++)
-    {
-        tat[i]=wt[i]+bt[i];
-    }
-}
-//Function to calculate Average Time
-void find_avg_time(int process[], int n, int bt[])
-{
-    int tat[n], wt[n], total_wt=0, total_tat=0;
-    //Calling of Waiting Time Function.
-    
-    find_wt(process, n, bt, wt);
-    
-    //Display of Turn Around Time Function.
-    find_tat(process, n, bt, wt, tat);
-    //Display of all the data in the Table form.
-    printf("Processes   Burst time   Waiting time   Turn around time\n");
-    for(int i=0;i<n;i++)
-    {
-        total_wt +=  wt[i];
-        total_tat +=  tat[i];
-        printf("   %d ",(i+1));
-        printf("           %d ", bt[i] );
-        printf("            %d",wt[i] );
-        printf("               %d\n",tat[i] );
-    }
-    float wavg=(float)total_wt/ (float)n;
-    float tavg=(float)total_tat/ (float)n;
-    printf("Average waiting time = %f ",wavg);
-    printf("\n");
-    printf("Average turn around time = %f ",tavg);
-}
+#define max 50
 void main()
 {
-    int process[]={1,2,3};
-    int n = sizeof process / sizeof(int);
-    int burst_time[]={10,5,8};
-    find_avg_time(process, n, burst_time);
-    
+    int i,j,n,bt[max],wt[max],tat[max];
+    float awt=0,atat=0;
+    printf("Enter the no. of process: ");
+    scanf("%d",&n);
+    printf("Enter the burst time of process: ");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&bt[i]);
+    }
+    printf("Process\t Burst Time\t Waiting Time\t Turn Around Time\n");
+    for(i=0;i<n;i++)
+    {
+        wt[i]=0;
+        tat[i]=0;
+        //Calculating the Waiting Time
+        for(j=0;j<i;j++)
+        {
+            wt[i]=wt[i]+bt[j];
+        }
+        //Calculating the Turn Around Time
+        tat[i]=wt[i]+bt[i];
+        //Calculating the Total Waiting Time
+        awt=awt+wt[i];
+        //Calculating the Total Turn Around Time
+        atat=atat+tat[i];
+        printf("%d\t%d\t\t\t%d\t\t%d\n",i+1,bt[i],wt[i],tat[i]); 
+    }
+    printf("Average waiting time = %f\n",awt/n);
+    printf("Average Turn around time = %f",atat/n);
 }
+
+OUTPUT :
+
+Enter the no. of process: 4
+Enter the burst time of process: 7 13 5 9
+Process  Burst Time      Waiting Time    Turn Around Time
+1       7                       0               7
+2       13                      7               20
+3       5                       20              25
+4       9                       25              34
+Average waiting time = 13.000000
+Average Turn around time = 21.500000
