@@ -51,3 +51,14 @@ void main()
         printf("Average Turn Around Time = %f\n",atat/n);
 
 }
+
+
+OUTPUT:
+Process Burst Time      Turn Around Time        Waiting Time
+
+1       5               13                      8
+2       3               10                      7
+3       1               5                       4
+4       4               12                      8
+Average Waiting Time = 6.750000
+Average Turn Around Time = 10.000000
