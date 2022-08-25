@@ -6,3 +6,7 @@
 
 ### 2. Programs For Round Robin Scheduling (RRSS).
 <p>&emsp;&emsp;Ⅰ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Round%20Robin%20Scheduling/Program%20for%20RRS">Program for RRSS.</a></p>
+
+### 3. Programs For Shortest Job First (SJF).
+<p>&emsp;&emsp;Ⅰ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Shortest%20Job%20First%20(SJF)/Program%20For%20SJF%20(Non-Preemptive)">Program for SJF for Non-Preemptive.</a></p>
+<p>&emsp;&emsp;Ⅱ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Shortest%20Job%20First%20(SJF)/Program%20For%20SJF%20(Preemptive)">Program for SJF for Preemptive.</a></p>
