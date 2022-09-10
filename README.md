@@ -10,3 +10,7 @@
 ### 3. Programs For Shortest Job First (SJF).
 <p>&emsp;&emsp;Ⅰ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Shortest%20Job%20First%20(SJF)/Program%20For%20SJF%20(Non-Preemptive)">Program for SJF for Non-Preemptive.</a></p>
 <p>&emsp;&emsp;Ⅱ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Shortest%20Job%20First%20(SJF)/Program%20For%20SJF%20(Preemptive)">Program for SJF for Preemptive.</a></p>
+
+### 4. Program for Priority Scheduling.
+<p>&emsp;&emsp;Ⅰ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Priority%20Scheduling/Program%20for%20Priority%20Scheduling(Non-Preemptive)">Program for Priority Scheduling (Non Pre-emptive).</a></p>
+<p>&emsp;&emsp;Ⅱ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Priority%20Scheduling/Program%20for%20Priority%20Scheduling(Preemptive)">Program for Prority Scheduling (Pre-emptive).</a></p>
