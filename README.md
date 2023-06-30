@@ -1,6 +1,6 @@
 # Operating-system
 ### IT CONTAINS ALL THE PROGRAMS OF THE OPERATING SYSTEM TOPICS.
-THIS REPOSITORY WILL UPDATING TIME TO TIME. 
+THIS REPOSITORY WILL UPDATE TIME TO TIME. 
 ### 1. Programs For First Come First Serve (FCFS).(It contain 2 parts.)
 <p>&emsp;&emsp;Ⅰ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/First%20Come%20First%20Serve%20(FCFS)/Program_for_FCFS_(Part-1).c"> Program for FCFS Without Arrival Time</a></p>
 <p>&emsp;&emsp;Ⅱ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/First%20Come%20First%20Serve%20(FCFS)/Program_for_FCFS(Part-2).c">Program for FCFS With Arrival Time</a></p>
