@@ -15,6 +15,3 @@ THIS REPOSITORY WILL UPDATE TIME TO TIME.
 ### 4. Program For Priority Scheduling.
 <p>&emsp;&emsp;Ⅰ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Priority%20Scheduling/Program%20for%20Priority%20Scheduling(Non-Preemptive)">Program for Priority Scheduling (Non Pre-emptive).</a></p>
 <p>&emsp;&emsp;Ⅱ. <a href="https://github.com/anshshori2002/Operating-system/blob/main/Priority%20Scheduling/Program%20for%20Priority%20Scheduling(Preemptive)">Program for Prority Scheduling (Pre-emptive).</a></p>
-
-
-
